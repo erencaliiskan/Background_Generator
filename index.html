@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Background Generator</title>
+  </head>
+  <body id="gradient">
+    <h1>Background Generator</h1>
+    <input type="color" id="first-input" name="color" value="#FF0000" />
+    <input type="color" id="second-input" name="color" value="#0000FF" />
+    <span>
+      <h2>Your Current Background Colors:</h2>
+    </span>
+    <h3 id="rgb-codes"></h3>
+    <button
+      class="copy-button"
+      name="button"
+      type="button"
+      onclick="copyGradient()"
+    >
+      Copy
+    </button>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

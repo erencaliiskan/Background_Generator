@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    color: rgb(0, 0, 0, 5);
+    background: linear-gradient(to right, red, blue);
+    top: 15%;
+
+}
+
+h1 {
+    font: 600 2.5em 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: .5em;
+    text-transform: uppercase;
+    
+    
+}
+
+
+h2 {
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    letter-spacing: .1em;
+    border: 1.5px solid black;
+}
+
+h3 {
+    
+    text-decoration: rgb(0,0,0,5);
+    letter-spacing: 0.01em;
+    text-transform: none;
+}
